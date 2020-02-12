@@ -1,4 +1,3 @@
-# test commmit 3
 trigger:
 - '*'
 
@@ -10,11 +9,7 @@ pool:
 variables:
   buildConfiguration: 'Release'
   wwwrootDir: 'Tailspin.SpaceGame.Web/wwwroot'
-<<<<<<< HEAD
   dotnetSdkVersion: '3.1.100'
-=======
-  dotnetSdkVersion: '2.1.100'
->>>>>>> b9a24024108ae71ca6af5364c7a88e2f379880de
 
 steps:
 - task: UseDotNet@2
